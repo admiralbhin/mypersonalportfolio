@@ -1,0 +1,35 @@
+/* styles.css */
+
+.container-full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef; /* Set background color for the full-height container */
+  }
+  
+  .container-center {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .container-content {
+    background-color: #ffffff; /* Default background color for content */
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .container-content:nth-child(odd) {
+    background-color: #f8f9fa; /* Background color for odd indexed content */
+  }
+
+  .img-fit {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+  
+  
